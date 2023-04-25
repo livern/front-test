@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 800px;
+    background-color: #edefeb;
+}
+
+*{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+.content{
+    width: 1400px;
+    height: 800px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+hr{
+    margin-top: -15px;
+    width: 95%;
+    border-top: 1px dashed #832b5b;
+    
+}
+
+.post-container{
+    padding: 10px 30px;
+    margin-top: 1rem;
+}
+
+.content-title{
+    font-size: 30px;
+    padding: 15px 30px;
+}
+
+.post-title-container{
+    display: flex;
+}
+
+.post-date{
+    padding: 1px 3px;
+    font-size: 15px;
+    background-color: #832b5b;
+    color: white;
+}
+
+.post-title{
+    padding: 0px 10px;
+    font-size: 18px;
+}
+
+.post-content{
+    padding: 10px 0px;
+    width: 95%;
+}
+
+@media(max-width: 1400px){
+    .content{
+        width: 1200px;
+    }
+}
+
+@media(max-width: 1200px){
+    .content{
+        width: 1000px;
+    }
+}
+
+
+@media(max-width: 800px){
+    .content{
+        width: 800px;
+        height: 1920px;
+        margin-top: 0px;
+    }
+
+    .content-title{font-size: 40px;}
+    .post-content{font-size: 25px;}
+    .post-date{font-size: 20px;}
+    .post-title{font-size: 25px;}
+}
